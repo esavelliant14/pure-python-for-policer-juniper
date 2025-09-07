@@ -1,0 +1,8 @@
+mkdir lab-esa
+cd lab-esa
+python3 -m venv venv
+source venv/bin/activate
+pip install junos-eznc lxml
+pip install mysql-connector-python
+pip install schedule
+>python.exe -m pip install --upgrade pip
